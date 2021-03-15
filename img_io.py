@@ -3,7 +3,7 @@ import numpy as np
 
 # import module_name as user_name
 
-img = cv2.imread('dir/lena.tif', cv2.IMREAD_REDUCED_COLOR_4)
+img = cv2.imread('dir/lena.tif', cv2.IMREAD_REDUCED_COLOR_2)
 # object_name = cv2.imread('directory', mode)
 # mode => etc.
 # cv2.IMREAD_GRAYSCALE

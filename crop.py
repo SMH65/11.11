@@ -2,7 +2,7 @@ import cv2
 
 src = cv2.imread("dir/lena.tif", cv2.IMREAD_COLOR)
 height, width, channel = src.shape
-print(height, width)
+print(height, width, channel)
 
 dst = src.copy()
 dst = src[100:300, 200:400]
